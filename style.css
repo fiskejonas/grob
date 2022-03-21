@@ -2,7 +2,7 @@
   margin: 0%;
 }
 
-/* MOBIL FORMAT */
+/********** MOBIL FORMAT **************************/
 @media (max-width: 700px) {
   body {
     background-color: #020003;
@@ -42,7 +42,7 @@
     background-image: url(billeder/splashbillede.webp);
     background-size: cover;
     background-position: 50%;
-    height: 80vh;
+    height: 70vh;
   }
 
   .forestillinger h1 {
@@ -52,7 +52,7 @@
     padding: 30px;
   }
 
-  .box1_billede {
+  .box_billede {
     padding-left: 30px;
     width: 70%;
   }
@@ -82,7 +82,54 @@
     padding-bottom: 7px;
   }
 
-  .box2 {
+  .box2 h2 {
+    font-family: "Passion One", cursive;
+    font-size: 2rem;
+    color: #e9e9f1;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+  .box2 h4 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.2rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+  }
+
+  .box2 p {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-bottom: 7px;
+  }
+
+  .box3 h2 {
+    font-family: "Passion One", cursive;
+    font-size: 2rem;
+    color: #e9e9f1;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+  .box3 h4 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.2rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+  }
+
+  .box3 p {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-bottom: 7px;
   }
 
   .footerDiv1,
@@ -95,7 +142,7 @@
   }
 }
 
-/* WEB FORMAT */
+/******************* WEB FORMAT **********************/
 
 @media (min-width: 700px) {
   body {
