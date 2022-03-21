@@ -4,8 +4,8 @@ body {
 
 header h3 {
   font-family: "Passion One", cursive;
-  font-size: 1.8rem;
-  color: #f0f0fc;
+  font-size: 2rem;
+  color: #e9e9f1;
 }
 
 .footerDiv1,
@@ -13,4 +13,10 @@ header h3 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.2rem;
   color: #f0f0fc;
+}
+
+.navigation h4 {
+  font-family: "Passion One", cursive;
+  font-size: 1.6rem;
+  color: #e9e9f1;
 }
