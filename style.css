@@ -20,7 +20,7 @@
     padding: 10px;
   }
 
-  .knapper {
+  .menu {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -57,56 +57,8 @@
     width: 70%;
   }
 
-  .box1 h2 {
-    font-family: "Passion One", cursive;
-    font-size: 2rem;
-    color: #e9e9f1;
-    padding-top: 10px;
-    padding-left: 30px;
-  }
-
-  .box1 h4 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.2rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-  }
-
-  .box1 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-    padding-bottom: 7px;
-  }
-
-  .box2 h2 {
-    font-family: "Passion One", cursive;
-    font-size: 2rem;
-    color: #e9e9f1;
-    padding-top: 10px;
-    padding-left: 30px;
-  }
-
-  .box2 h4 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.2rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-  }
-
-  .box2 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-    padding-bottom: 7px;
-  }
-
+  .box1 h2,
+  .box2 h2,
   .box3 h2 {
     font-family: "Passion One", cursive;
     font-size: 2rem;
@@ -115,6 +67,8 @@
     padding-left: 30px;
   }
 
+  .box1 h4,
+  .box2 h4,
   .box3 h4 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.2rem;
@@ -123,6 +77,8 @@
     padding-left: 30px;
   }
 
+  .box1 p,
+  .box2 p,
   .box3 p {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1rem;
@@ -130,6 +86,29 @@
     padding-top: 7px;
     padding-left: 30px;
     padding-bottom: 7px;
+  }
+
+  .knap_container {
+    display: flex;
+    gap: 20%;
+    justify-items: space-between;
+    padding-left: 30px;
+  }
+
+  .knap_container div {
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #e9e9f1;
+  }
+
+  .knap_1 p,
+  .knap_2 p {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 0.8rem;
+    color: #020003;
   }
 
   .footerDiv1,
@@ -161,7 +140,7 @@
     padding: 20px;
   }
 
-  .knapper {
+  .menu {
     display: flex;
     justify-content: space-between;
     gap: 20px;
