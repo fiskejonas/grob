@@ -1,22 +1,101 @@
-body {
-  background-color: #020003;
+* {
+  margin: 0%;
 }
 
-header h3 {
-  font-family: "Passion One", cursive;
-  font-size: 2rem;
-  color: #e9e9f1;
+/* MOBIL FORMAT */
+@media (max-width: 700px) {
+  body {
+    background-color: #020003;
+    background-image: url(billeder/logo_2_tg.png);
+    background-repeat: repeat;
+    background-position: 50%;
+    background-size: 10%;
+    height: 100vh;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #020003;
+    padding: 1rem;
+  }
+
+  .knapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  header h3 {
+    font-family: "Passion One", cursive;
+    font-size: 2rem;
+    color: #e9e9f1;
+  }
+
+  header h4 {
+    font-family: "Passion One", cursive;
+    font-size: 1.4rem;
+    color: #e9e9f1;
+  }
+
+  #splashbillede {
+    background-image: url(billeder/splashbillede.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 80vh;
+  }
+
+  .footerDiv1,
+  .footerDiv2 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+    color: #f0f0fc;
+    background-color: #020003;
+  }
 }
 
-.footerDiv1,
-.footerDiv2 {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 1.2rem;
-  color: #f0f0fc;
-}
+/* WEB FORMAT */
 
-.navigation h4 {
-  font-family: "Passion One", cursive;
-  font-size: 1.6rem;
-  color: #e9e9f1;
+@media (min-width: 700px) {
+  body {
+    background-color: #020003;
+    background-image: url(billeder/logo_2_tg.png);
+    background-repeat: repeat;
+    background-position: 50%;
+    background-size: 10%;
+    height: 100vh;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #020003;
+    padding: 2rem;
+  }
+
+  .knapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  header h3 {
+    font-family: "Passion One", cursive;
+    font-size: 2rem;
+    color: #e9e9f1;
+  }
+
+  header h4 {
+    font-family: "Passion One", cursive;
+    font-size: 1.5rem;
+    color: #e9e9f1;
+  }
+
+  .footerDiv1,
+  .footerDiv2 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.2rem;
+    color: #f0f0fc;
+    background-color: #020003;
+  }
 }
