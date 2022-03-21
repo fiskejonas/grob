@@ -9,7 +9,7 @@
     background-image: url(billeder/logo_2_tg.png);
     background-repeat: repeat;
     background-position: 50%;
-    background-size: 10%;
+    background-size: 5%;
     height: 100vh;
   }
 
@@ -43,6 +43,43 @@
     background-size: cover;
     background-position: 50%;
     height: 80vh;
+  }
+
+  .forestillinger h1 {
+    font-family: "Passion One", cursive;
+    font-size: 3.5rem;
+    color: #e9e9f1;
+    padding: 30px;
+  }
+
+  .box1_billede {
+    padding-left: 30px;
+    width: 70%;
+  }
+
+  .box1 h2 {
+    font-family: "Passion One", cursive;
+    font-size: 2rem;
+    color: #e9e9f1;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+  .box1 h4 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.2rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+  }
+
+  .box1 p {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+    color: #e9e9f1;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-bottom: 7px;
   }
 
   .footerDiv1,
