@@ -1,0 +1,16 @@
+body {
+  background-color: #020003;
+}
+
+header h3 {
+  font-family: "Passion One", cursive;
+  font-size: 1.8rem;
+  color: #f0f0fc;
+}
+
+.footerDiv1,
+.footerDiv2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.2rem;
+  color: #f0f0fc;
+}
