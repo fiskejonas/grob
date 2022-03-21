@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #020003;
-    padding: 1rem;
+    padding: 10px;
   }
 
   .knapper {
@@ -51,6 +51,7 @@
     font-size: 1rem;
     color: #f0f0fc;
     background-color: #020003;
+    padding: 10px;
   }
 }
 
@@ -70,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #020003;
-    padding: 2rem;
+    padding: 20px;
   }
 
   .knapper {
@@ -91,11 +92,19 @@
     color: #e9e9f1;
   }
 
+  #splashbillede {
+    background-image: url(billeder/splashbillede.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 80vh;
+  }
+
   .footerDiv1,
   .footerDiv2 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.2rem;
     color: #f0f0fc;
     background-color: #020003;
+    padding: 20px;
   }
 }
