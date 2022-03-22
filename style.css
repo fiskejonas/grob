@@ -2,305 +2,293 @@
   margin: 0%;
 }
 
-/********** MOBIL FORMAT **************************/
-@media (max-width: 700px) {
-  body {
-    background-color: #020003;
-    background-image: url(billeder/logo_2_tg.png);
-    background-repeat: repeat;
-    background-position: fixed;
-    background-size: 5%;
-    height: 100vh;
-  }
+body {
+  background-color: #020003;
+  background-image: url(billeder/logo_2_tg.png);
+  background-repeat: repeat;
+  background-position: fixed;
+  background-size: 5%;
+  height: 100vh;
+}
 
-  .navigation {
-    display: block;
-    justify-items: right;
-    background-color: #020003;
-    opacity: 90%;
-    padding: 10px;
-  }
+.navigation {
+  display: flex;
+  justify-items: right;
+  background-color: #020003;
+  opacity: 90%;
+  padding: 10px;
+  flex-wrap: wrap;
+}
 
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-  header h3 {
-    font-family: "Passion One", cursive;
-    font-size: 2rem;
-    color: #e9e9f1;
-  }
+header h3 {
+  font-family: "Passion One", cursive;
+  font-size: 2rem;
+  color: #e9e9f1;
+}
 
-  header h4 {
-    font-family: "Passion One", cursive;
-    font-size: 1.2rem;
-    color: #e9e9f1;
-  }
+header h4 {
+  font-family: "Passion One", cursive;
+  font-size: 1.2rem;
+  color: #e9e9f1;
+}
 
-  #splashbillede {
-    background-image: url(billeder/splashbillede.webp);
-    background-size: cover;
-    background-position: 50%;
-    height: 70vh;
-  }
+#splashbillede {
+  background-image: url(billeder/splashbillede.webp);
+  background-size: cover;
+  background-position: 50%;
+  height: 70vh;
+}
 
-  .grid_container1 {
-    padding-left: 30px;
-  }
+.box1 h2,
+.box2 h2,
+.box3 h2,
+.box4 h2,
+.box5 h2,
+.box6 h2 {
+  font-family: "Passion One", cursive;
+  font-size: 2rem;
+  color: #e9e9f1;
+  padding-top: 10px;
+}
 
-  .forestillinger h1 {
-    font-family: "Passion One", cursive;
-    font-size: 3.5rem;
-    color: #e9e9f1;
-    padding-top: 30px;
-    padding-left: 60px;
-  }
+.box1 h4,
+.box2 h4,
+.box3 h4,
+.box4 h4,
+.box5 h4,
+.box6 h4 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1rem;
+  color: #e9e9f1;
+  padding-top: 7px;
+}
 
-  .box_billede {
-    padding-top: 20px;
-    padding-left: 30px;
-    width: 70%;
-  }
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p,
+.box6 p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 0.8rem;
+  color: #e9e9f1;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
 
-  .box1 h2,
-  .box2 h2,
-  .box3 h2,
-  .box4 h2,
-  .box5 h2,
-  .box6 h2 {
-    font-family: "Passion One", cursive;
-    font-size: 2rem;
-    color: #e9e9f1;
-    padding-top: 10px;
-    padding-left: 30px;
-  }
+.knap_container_1,
+.knap_container_2,
+.knap_container_3,
+.knap_container_4,
+.knap_container_5,
+.knap_container_6 {
+  display: flex;
+  gap: 19%;
+  justify-content: space-between;
+}
 
-  .box1 h4,
-  .box2 h4,
-  .box3 h4,
-  .box4 h4,
-  .box5 h4,
-  .box6 h4 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-  }
+.knap_container_1 div,
+.knap_container_2 div,
+.knap_container_3 div,
+.knap_container_4 div,
+.knap_container_5 div,
+.knap_container_6 div {
+  margin-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e9e9f1;
+}
 
-  .box1 p,
-  .box2 p,
-  .box3 p,
-  .box4 p,
-  .box5 p,
-  .box6 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 0.8rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-    padding-bottom: 7px;
-  }
+.knap_1 p,
+.knap_2 p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 0.8rem;
+  color: #020003;
+}
 
-  .knap_container_1,
-  .knap_container_2,
-  .knap_container_3,
-  .knap_container_4,
-  .knap_container_5,
-  .knap_container_6 {
-    display: flex;
-    gap: 19%;
-    justify-items: space-between;
-    padding-left: 30px;
-  }
+.responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
-  .knap_container_1 div,
-  .knap_container_2 div,
-  .knap_container_3 div,
-  .knap_container_4 div,
-  .knap_container_5 div,
-  .knap_container_6 div {
-    margin-top: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #e9e9f1;
-  }
-
-  .knap_1 p,
-  .knap_2 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 0.8rem;
-    color: #020003;
-  }
-
-  .video {
-    margin-top: 40px;
-    padding-left: 15px;
-  }
-
-  .footerDiv1,
-  .footerDiv2 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1rem;
-    color: #f0f0fc;
-    background-color: #020003;
-    opacity: 90%;
-    padding: 20px;
-    line-height: 25px;
-  }
+.footerDiv1 {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1rem;
+  color: #f0f0fc;
+  background-color: #020003;
+  opacity: 90%;
+  padding: 20px;
+  line-height: 25px;
 }
 
 /******************* WEB FORMAT **********************/
 
-@media (min-width: 700px) {
-  body {
-    background-color: #020003;
-    background-image: url(billeder/logo_2_tg.png);
-    background-repeat: repeat;
-    background-position: fixed;
-    background-size: 2.5%;
-    height: 100vh;
-  }
+body {
+  background-color: #020003;
+  background-image: url(billeder/logo_2_tg.png);
+  background-repeat: repeat;
+  background-position: fixed;
+  background-size: 2.5%;
+  height: 100vh;
+}
 
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    background-color: #020003;
-    padding: 25px;
-  }
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #020003;
+  padding: 25px;
+}
 
-  .menu {
-    display: flex;
-    gap: 50px;
-  }
+.menu {
+  display: flex;
+  gap: 50px;
+}
 
-  header h3 {
-    font-family: "Passion One", cursive;
-    font-size: 2.5rem;
-    color: #e9e9f1;
-  }
+header h3 {
+  font-family: "Passion One", cursive;
+  font-size: 2.5rem;
+  color: #e9e9f1;
+  line-height: 0.7;
+}
 
-  header h4 {
-    font-family: "Passion One", cursive;
-    font-size: 1.5rem;
-    color: #e9e9f1;
-  }
+header h4 {
+  font-family: "Passion One", cursive;
+  font-size: 1.5rem;
+  color: #e9e9f1;
+}
 
-  #splashbillede {
-    background-image: url(billeder/splashbillede.webp);
-    background-size: cover;
-    background-position: 50%;
-    height: 125vh;
-  }
+#splashbillede {
+  background-image: url(billeder/splashbillede.webp);
+  background-size: cover;
+  background-position: 50%;
+  height: 125vh;
+}
 
-  .grid_container1 {
-    padding-left: 30px;
-  }
+.grid_container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 0.5rem;
+}
 
+.forestillinger {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+.forestillinger h1 {
+  font-family: "Passion One", cursive;
+  font-size: 6.5rem;
+  color: #e9e9f1;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.box_billede {
+  width: 100%;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.card {
+  aspect-ratio: 16/9;
+  padding: 1.5rem;
+}
+
+.knap_1 p,
+.knap_2 p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 0.8rem;
+  color: #020003;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 58.333%;
+}
+
+.footerDiv1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.2rem;
+  color: #f0f0fc;
+  background-color: #020003;
+  padding: 20px;
+  padding-top: 150px;
+}
+
+/*mobil*/
+@media (max-width: 580px) {
   .forestillinger h1 {
-    font-family: "Passion One", cursive;
-    font-size: 6.5rem;
-    color: #e9e9f1;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    padding-left: 60px;
+    font-size: 4rem;
   }
-
-  .box_billede {
-    padding-top: 20px;
-    padding-left: 30px;
-    max-width: 35%;
-  }
-
-  .box1 h2,
-  .box2 h2,
-  .box3 h2,
-  .box4 h2,
-  .box5 h2,
-  .box6 h2 {
-    font-family: "Passion One", cursive;
-    font-size: 2rem;
-    color: #e9e9f1;
-    padding-top: 10px;
-    padding-left: 30px;
-  }
-
-  .box1 h4,
-  .box2 h4,
-  .box3 h4,
-  .box4 h4,
-  .box5 h4,
-  .box6 h4 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-  }
-
-  .box1 p,
-  .box2 p,
-  .box3 p,
-  .box4 p,
-  .box5 p,
-  .box6 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 0.8rem;
-    color: #e9e9f1;
-    padding-top: 7px;
-    padding-left: 30px;
-    padding-bottom: 7px;
-  }
-
-  .knap_container_1,
-  .knap_container_2,
-  .knap_container_3,
-  .knap_container_4,
-  .knap_container_5,
-  .knap_container_6 {
+  .nyhedsbrev {
     display: flex;
-    gap: 19%;
-    justify-items: space-between;
-    padding-left: 30px;
+    flex-direction: column;
+    padding-top: 40px;
+    flex-wrap: wrap;
   }
 
-  .knap_container_1 div,
-  .knap_container_2 div,
-  .knap_container_3 div,
-  .knap_container_4 div,
-  .knap_container_5 div,
-  .knap_container_6 div {
-    margin-top: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #e9e9f1;
-  }
-
-  .knap_1 p,
-  .knap_2 p {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 0.8rem;
-    color: #020003;
-  }
-
-  .video {
-    display: grid;
-    justify-items: center;
-    padding: 30px;
-  }
-
-  .footerDiv1,
-  .footerDiv2 {
+  .footerDiv1 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.2rem;
     color: #f0f0fc;
     background-color: #020003;
     padding: 20px;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
   }
+}
+
+@media (max-width: 400px) {
+  .grid_container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 0.5rem;
+  }
+}
+
+.social img {
+  width: 30px;
+  filter: invert(1);
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+}
+
+.nyhedsbrev {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.kontakt h3 {
+  padding-bottom: 20px;
 }
